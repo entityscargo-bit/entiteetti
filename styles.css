@@ -10,14 +10,14 @@
   --white: #f0f0f0;
   --grey: #2a2a2a;
   --light-grey: #555555;
-  --font: 'Courier New', Courier, monospace;
-}
+--font: 'EB Garamond', serif;}
 
 body {
   background-color: var(--black);
   color: var(--white);
   font-family: var(--font);
   font-size: 14px;
+    font-style: italic;
   line-height: 1.6;
   min-height: 100vh;
 }
