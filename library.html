@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Archive — Library</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="library.html" class="active">Library</a>
+    <a href="library.html?filter=essay">Essays</a>
+    <a href="library.html?filter=critique">Critiques</a>
+    <a href="library.html?filter=thought">Thoughts</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <!-- MAIN -->
+  <main>
+
+    <!-- FILTER BAR -->
+    <div class="filter-bar">
+      <button 
+        class="filter-btn active" 
+        data-filter="all"
+        onclick="setFilter('all')">
+        All
+      </button>
+      <button 
+        class="filter-btn" 
+        data-filter="essay"
+        onclick="setFilter('essay')">
+        Essays
+      </button>
+      <button 
+        class="filter-btn" 
+        data-filter="critique"
+        onclick="setFilter('critique')">
+        Critiques
+      </button>
+      <button 
+        class="filter-btn" 
+        data-filter="thought"
+        onclick="setFilter('thought')">
+        Thoughts
+      </button>
+    </div>
+
+    <!-- LIBRARY GRID -->
+    <div class="library-grid" id="library-grid">
+      <!-- Populated by script.js -->
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Archive — Anonymous</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

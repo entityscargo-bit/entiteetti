@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Archive</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav>
+    <a href="index.html" class="active">Home</a>
+    <a href="library.html">Library</a>
+    <a href="library.html?filter=essay">Essays</a>
+    <a href="library.html?filter=critique">Critiques</a>
+    <a href="library.html?filter=thought">Thoughts</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <!-- MAIN -->
+  <main>
+
+    <!-- RANDOM TEXT & PHOTO WINDOW -->
+    <div class="landing-window">
+
+      <!-- TEXT SIDE -->
+      <div class="window-text">
+        <div>
+          <p class="text-type" id="random-type">Loading...</p>
+          <h1 class="text-title" id="random-title"></h1>
+          <p class="text-body" id="random-body"></p>
+          <p class="text-date" id="random-date"></p>
+        </div>
+        <button class="refresh-btn" onclick="loadRandom()">
+          ↻ Another
+        </button>
+      </div>
+
+      <!-- PHOTO SIDE -->
+      <div class="window-photo">
+        <img id="random-photo" src="" alt="">
+      </div>
+
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Archive — Anonymous</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

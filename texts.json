@@ -1,0 +1,29 @@
+{
+  "essays": [
+    {
+      "id": 1,
+      "type": "essay",
+      "title": "First Essay",
+      "date": "2024",
+      "body": "Your essay text goes here. Replace this with your writing."
+    }
+  ],
+  "critiques": [
+    {
+      "id": 2,
+      "type": "critique",
+      "title": "First Critique",
+      "date": "2024",
+      "body": "Your critique text goes here. Replace this with your writing."
+    }
+  ],
+  "thoughts": [
+    {
+      "id": 3,
+      "type": "thought",
+      "title": "A Thought",
+      "date": "2024",
+      "body": "A small tidbit or daily thought goes here."
+    }
+  ]
+}
